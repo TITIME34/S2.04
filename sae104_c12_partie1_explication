@@ -1,0 +1,35 @@
+explication des choix:
+
+Participe en classe assossiation 
+-> car on doit avoir le nombre de but de l'équipe locale et visiteur/exerieur
+
+on met les clé de Match 
+-> les clé de Match sont localisation et journée pour s'assurer de l'évenement concerné
+
+on met les clé de Championnat
+-> les clé de Championnat sont Saison et ligue_nom pour s'assurer de l'évenement concerné
+
+entraineur en atribue
+-> on a mis entraineur en atribiue car il n'avais aucune info importante a lui
+
+mutiplicité du joueur
+-> on a mis 0..1 comme mutiplicité car un joueur peut arréter de jouer temporairement dans une équipe
+
+Info_Joueur en classe assossiation 
+-> car on doit avoir le nombre de penalité, le numéros de maillot du joueur, sa position et si il est Titulaire ou non
+
+carton_rouge en bool
+-> car un carton rouge signifie élimination du match
+
+fait et faisait partie
+-> pour obtenir les dates d'arrivé et de départ
+
+genre_équipe dans équipe
+-> pour différencié les équipes masculines des féminines
+
+id_joueur dans joueur
+-> au cas ou 2 joueur on le même nom et même prénom
+
+date_arriver dans faisait partie
+-> pour stocker les différentes dates d'arriver des anciennes équipes du joueur
+
